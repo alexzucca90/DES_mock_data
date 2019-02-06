@@ -30,7 +30,6 @@ MGCosmoMC will run a likelihood test and will return a set of output files conta
 
 Type
 ```bash
-cd DES_linear_data
 python create_DES_mock_data.py -t theory -i invcov -o output
 ```
 where ```theory``` is a string that declares the theoretical predictions file (such as [this file](/input/DES_theory_vec_linear_weyl_mg1.dat) ), ```invcov``` is the string declaring the file for the inverse covariance matrix (see [this file](/input/) ) and ```output``` is the name of the output file.
