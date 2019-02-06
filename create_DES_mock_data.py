@@ -27,10 +27,10 @@ wtheta = np.loadtxt('./data/DES_1YR_final_wtheta.dat')
 used_items = np.loadtxt('./data/DES_used_items.dat')
 
 # loading the MG theoretical predictions
-mg = np.loadtxt('./input/'+ name)
+mg = np.loadtxt(theory)
 
 # load the covariance matrix
-invcov = np.loadtxt('./data/DES_inv_cov.dat')
+invcov = np.loadtxt(icov)
 
 #invert the covariance matrices
 cov = np.linalg.inv(invcov)
